@@ -27,8 +27,3 @@ alias vabam="cd Code/VABAM"
 alias menu="cd Code/VABAM/home-menu"
 alias pacman="cd Code/VABAM/pacman"
 alias code= "cd Code"
-
-#langage
-alias fr="setxkbmap fr"
-alias us="setxkbmap us"
-alias uk="setxkbmap gb"

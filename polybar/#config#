@@ -23,7 +23,7 @@ height = 30
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-border-bottom-size = 3 
+border-bottom-size = 3
 border-bottom-color = #36D936
 
 spacing = 2
