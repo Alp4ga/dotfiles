@@ -1,8 +1,8 @@
 #!/bin/bash
 
-blih -u eliott.martin@epitech.eu repository create $1
+blih.py -u eliott.martin@epitech.eu repository create $1
 echo "[ OK ] Repository create"
-blih -u eliott.martin@epitech.eu repository setacl $1 ramassage-tek r
+blih.py -u eliott.martin@epitech.eu repository setacl $1 ramassage-tek r
 echo "[ OK ] Repository permission ramassage-tek"
 git clone git@git.epitech.eu:/eliott.martin@epitech.eu/$1
 echo "[ OK ] Repository clone"
@@ -18,7 +18,7 @@ do
 	read user
 	echo -n "permissions: "
 	read permissions
-	blih -u eliott.martin@epitech.eu repository setacl $1 $user $permissions
+	blih.py -u eliott.martin@epitech.eu repository setacl $1 $user $permissions
     else
 	ADD="False"
     fi
