@@ -1,0 +1,29 @@
+#Aliases
+
+#Tools
+
+alias ls="exa"
+alias ll="exa -l"
+alias la="exa -a"
+alias lla="exa -la"
+alias .="cd .."
+alias ..="cd ../.."
+alias cl="make clean; rm a.out; clear; ls"
+
+#Dev
+
+alias ne="emacs -nw"
+alias sne="sudo emacs -nw"
+alias ,e="ne"
+alias be="ne"
+alias scrot="scrot ~/images/screen/"
+alias diff="colordiff"
+
+alias gco="git checkout"
+alias gb="git branch"
+alias gs="git status"
+
+#langage
+alias fr="setxkbmap fr"
+alias us="setxkbmap us"
+alias uk="setxkbmap gb"

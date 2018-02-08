@@ -1,0 +1,22 @@
+#start X at login
+if status --is-login
+   if test -z "$DISPLAY" -a $XDG_VTNR = 1
+      exec startx
+   end
+end
+
+##
+# EXPORTS
+##
+
+set -g -x EDITOR "emacs"
+set -g -x USER_NICKNAME "valky"
+set -g -x PAGER "most"
+
+set -g -x PATH $PATH /home/valky/bin
+
+##
+# IMPORT
+##
+
+source /home/valky/.config/fish/aliases
