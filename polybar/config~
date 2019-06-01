@@ -18,8 +18,8 @@ font-1 = MaterialIcons:size=10;0
 font-2 = Termsynu:size=8:antialias=false;-2
 font-3 = FontAwesome:size=10;0
 
-modules-left = powermenu github
-modules-right = xkeyboard volume backlight wireless-network wired-network battery date
+modules-left = powermenu mpd
+modules-right = volume backlight wireless-network wired-network battery date
 
 [bar/bottom]
 monitor = eDP-1
@@ -115,7 +115,7 @@ label-dimmed-underline = ${BAR.background}
 
 label-focused-foreground = #ffffff
 label-focused-background = #3f3f3f
-label-focused-padding = 2
+label-focused-padding = 4
 xlabel-focused-padding = 4
 
 ; Available tokens:
@@ -367,37 +367,4 @@ ramp-0 = 
 ramp-1 = 
 ramp-2 = 
 ramp-foreground = #ffffff
-
-[module/xkeyboard]
-type = internal/xkeyboard
-blacklist-0 = num lock
-blacklist-1 = scroll lock
-
-format = <label-layout> <label-indicator>
-format-spacing = 0
-label-layout = %name%
-label-layout-padding = 2
-
-label-indicator = %name%
-label-indicator-padding = 2
-layout-icon-default = some-icon
-layout-icon-0 = ch;C
-layout-icon-1 = us;U
-
-indicator-icon-default = 
-indicator-icon-0 = caps lock;-CL;+CL
-indicator-icon-1 = scroll lock;;+SL
-indicator-icon-2 = num lock;-NL;+NL
-
-label-indicator-on = +%name%
-label-indicator-off = -%name%
-
-[module/github]
-type = internal/github
-
-token = ${file:~/.config/github/access.token}
-empty-notifications = true
-interval = 10
-format = <label>
-label = %notifications%
 ; vim:ft=dosini

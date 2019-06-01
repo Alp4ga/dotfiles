@@ -1,1 +1,1 @@
-/home/alpaga/.local/share/omf/themes/bobthefish/fish_prompt.fish
+/home/alpaga/.local/share/omf/themes/l/fish_prompt.fish

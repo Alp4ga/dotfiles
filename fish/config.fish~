@@ -10,7 +10,7 @@ end
 ##
 
 set -g -x EDITOR "emacs"
-set -g -x USER_NICKNAME "Alpaga"
+set -g -x USER_NICKNAME "Eliott"
 set -g -x PAGER "most"
 
 set -g -x PATH $PATH /home/alpaga/bin

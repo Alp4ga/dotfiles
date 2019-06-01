@@ -1,7 +1,0 @@
-#!/bin/bash
-
-## TMP FILE
-find . -type f \( -name "*~" -o -name "*.o" -o -name "#*#" \) -delete
-
-## Criterion
-find . -type f \( -name "*.c.gcov" -o -name "*.gcda" -o -name "*.gcno" \) -delete
